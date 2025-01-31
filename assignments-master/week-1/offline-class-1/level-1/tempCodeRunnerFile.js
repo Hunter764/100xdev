@@ -1,0 +1,1 @@
+shiftExample([1, 2, 3]);
