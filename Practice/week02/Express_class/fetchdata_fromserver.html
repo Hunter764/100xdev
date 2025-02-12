@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //Way 1
+        // DOM
+        // function getAnimalData(){
+        //     fetch("https://fakerapiit/api/v1/ersons")
+        //     .then(function(response){
+        //         response.json()
+        //         .then(function(finaldata){
+        //             console.log(finaldata);
+        //         })
+        //     })
+        // }
+
+
+        //Way2 Async Await
+
+        async function getAnimalData(){
+            const response = await("https://fakerapiit/api/v1/ersons");
+            const finaldata = await response.json();
+            console.log(finaldata)
+        }
+    </script>
+    <button onclick="getAnimalData">Get animal data</button>
+    
+</body>
+</html>
