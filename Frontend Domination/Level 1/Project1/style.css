@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+         url('fonts/Gilroy-Regular.woff') format('woff'),
+         url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;  /* Apply the custom font */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 150px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#nav h3{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav i{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding:  7px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 600;
+    background-color: white;
+}
+
+#btn2 {
+    color: white !important;
+    background-color: orangered !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+#btn1 {
+    cursor: pointer;
+}
+
+
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;   /* to fit the image in the given size */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+
+}
+
+#btm-left{
+    position: absolute;
+    margin-left: 45px;
+    bottom: 5%;
+    font-weight: 500;
+    font-size: medium;
+}
+
+
+#btn-circle {
+    position: absolute;
+    width: 10px; /* Adjust size */
+    height: 10px; /* Keep same as width for a circle */
+    border: none;
+    border-radius: 50%; /* Makes it a circle */
+    bottom: 8%; /* Positions it at the bottom */
+    left: 3%; /* Positions it on the left */
+    background-color: orangered; /* Button background */
+    font-size: 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#arrow-down{
+    position: absolute;
+    font-size: 150px;
+    font-weight: 100;
+    stroke-width: 0.5px;
+    left: 50%;
+    bottom: 1%;
+    transform: translateX(-50%);
+    color: black;
+    cursor: pointer;
+    
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    left: 87%;
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+
+#socials{
+    position: absolute;
+    bottom: 7%;
+    left: 89%;
+    font-size: larger;
+    cursor: pointer;
+}

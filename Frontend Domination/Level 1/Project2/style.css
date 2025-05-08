@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('fonts/Aeonik-Regular.woff2') format('woff2'),
+         url('fonts/Aeonik-Regular.woff') format('woff'),
+         url('fonts/Aeonik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Aeonik', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px ;
+}
+
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 7px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+
+#intro{
+    height: 40%;
+    width: 100%;
+    padding: 55px  60px;
+}
+
+#intro h1{
+    font-size: 100px;
+    letter-spacing: -3px;
+    font-weight: 55 0;
+    line-height: 90px;
+}
+
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, #place h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#hero-image{
+    height: 87%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(https://i.pinimg.com/1200x/83/b0/d4/83b0d4ed1e349c268ab521cae89e6cd0.jpg);
+    background-size: cover;
+}
+
+#about{
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+ 
+    width: 60%;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 525;
+}
+#about-part2{
+    width: 35%;
+    height: 100%;
+    padding: 0px 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+#about-part2 h3{
+    font-size: 35px;
+    font-weight: 525;
+}
+
+
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#work{
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 50px 60px;
+    border-bottom: 2px solid black;
+}
+
+#work1{
+    width: 35%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    
+}
+
+#work1 h3{
+    font-size: 35px;
+    font-weight: 450;
+}
+#work1 i{
+    font-size: 35px;
+}
+#work2{
+    width: 65%;
+    height: 100%;
+    padding: 0px 60px ;
+}
+
+.work2-part{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-top: 0;
+}
+
+.work2-part .ele{
+    width: 50%;
+    height: 100%;
+}
+
+.work2-part .ele:nth-child(1){
+    border-right: 2px solid black;
+}
+
+.work2-part .ele:nth-child(2){
+    padding-left: 50px ;
+}
+
+.work2-part .ele h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work2-part .ele p{
+    font-size: 17px;
+    color: rgb(101, 101, 101);
+}
